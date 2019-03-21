@@ -45,3 +45,6 @@ git merge () //合并仓库
 git merge --no-ff -m (提示) （仓库） //禁用farst
 git stash   (临时保存)
 git stash pop (恢复）
+git stash list (查看）
+git stash apply stash @{0}  //(恢复指定的stash)
+git stash drop (删除缓存)
