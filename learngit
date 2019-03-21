@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 学习Git
 git init(初始化一个git仓库）
 git add file
@@ -20,3 +21,25 @@ git checkout （分支）//转到这个分支
 git merge () //合并分支
 git branch -b ()  //删去分支
 git log --graph --pretty=oneline --abbrev-commit //查看分支的合并情况
+=======
+学习Git
+git init(初始化一个git仓库）
+git add file
+git commit -m "说明"
+git diff //查看不同
+git status //查看当前仓库的状态
+git log //显示最进到最远的日志
+git reset -- hard HEAD^ //回退
+hard HEAD~100     //退回前100个版本
+git reset --hard (commit 命令)   //允许我们到各个版本进行穿梭
+cat 文件名（查看文件内容）
+git reflog （查看命令）
+git checkout -- 文件  （删除未加入文件的内容）
+git remote add origin git@server -name:path/repo-name.get;(github.com:qinggengchen/分支.git）
+git push -u origin master (第一次推送分支的所有内容）
+git push origin master (推送最新的修改）
+git checkout () //换仓库
+git checkout -b () //建仓库
+git checkout -d （）// 删除仓库
+git merge () //合并仓库
+>>>>>>> dev
