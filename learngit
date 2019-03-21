@@ -42,3 +42,6 @@ git checkout () //换仓库
 git checkout -b () //建仓库
 git merge () //合并仓库
 >>>>>>> dev
+git merge --no-ff -m (提示) （仓库） //禁用farst
+git stash   (临时保存)
+git stash pop (恢复）
