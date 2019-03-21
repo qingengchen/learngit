@@ -1,0 +1,13 @@
+学习Git
+git init(初始化一个git仓库）
+git add file
+git commit -m "说明"
+git diff //查看不同
+git status //查看当前仓库的状态
+git log //显示最进到最远的日志
+git reset -- hard HEAD^ //回退
+hard HEAD~100     //退回前100个版本
+git reset --hard (commit 命令)   //允许我们到各个版本进行穿梭
+cat 文件名（查看文件内容）
+git reflog （查看命令）
+git checkout -- 文件  （删除未加入文件的内容）
