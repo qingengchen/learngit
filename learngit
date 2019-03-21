@@ -14,3 +14,9 @@ git checkout -- 文件  （删除未加入文件的内容）
 git remote add origin git@server -name:path/repo-name.get;(github.com:qinggengchen/分支.git）
 git push -u origin master (第一次推送分支的所有内容）
 git push origin master (推送最新的修改）
+git branch  (查看分支）
+git checkout -b () 创建分支
+git checkout （分支）//转到这个分支
+git merge () //合并分支
+git branch -b ()  //删去分支
+git log --graph --pretty=oneline --abbrev-commit //查看分支的合并情况
