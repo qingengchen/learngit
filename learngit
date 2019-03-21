@@ -19,7 +19,7 @@ git branch  (查看分支）
 git checkout -b () 创建分支
 git checkout （分支）//转到这个分支
 git merge () //合并分支
-git branch -b ()  //删去分支
+git branch -d ()  //删去分支
 git log --graph --pretty=oneline --abbrev-commit //查看分支的合并情况
 =======
 学习Git
@@ -40,6 +40,5 @@ git push -u origin master (第一次推送分支的所有内容）
 git push origin master (推送最新的修改）
 git checkout () //换仓库
 git checkout -b () //建仓库
-git checkout -d （）// 删除仓库
 git merge () //合并仓库
 >>>>>>> dev
