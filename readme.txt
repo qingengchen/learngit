@@ -3,3 +3,4 @@ Git is a free software.
 Git is a distributer version control system .
 Git is superrise.
 Git track changes
+Git has a mutable index called stage.
